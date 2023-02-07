@@ -71,7 +71,7 @@ public class Pizza {
 
     public String getBill(){
         // your code goes here
-        if(isBillGenerated)
+        if(!isBillGenerated)
         {
             if(isExtraCheeseAdded)
                 this.bill += "Extra Cheese Added: 80"+"\n";
